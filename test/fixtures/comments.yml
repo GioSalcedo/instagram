@@ -2,10 +2,12 @@
 
 one:
   user: one
+  post: one
   content: MyText
   like: 1
 
 two:
   user: two
+  post: two
   content: MyText
   like: 1
