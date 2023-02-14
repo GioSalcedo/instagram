@@ -2,10 +2,10 @@
 
 one:
   user: one
-  comment: one
   description: MyText
+  like: 1
 
 two:
   user: two
-  comment: two
   description: MyText
+  like: 1

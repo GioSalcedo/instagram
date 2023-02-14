@@ -5,4 +5,6 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
   validates_presence_of :username, :fullname, :phone
   validates_uniqueness_of :username, :fullname, :phone
+  has_many :posts
+  has_many :comments
 end
