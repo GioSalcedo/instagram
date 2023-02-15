@@ -7,4 +7,5 @@ class User < ApplicationRecord
   validates_uniqueness_of :username, :fullname, :phone
   has_many :posts
   has_many :comments
+  has_one_attached :avatar
 end
